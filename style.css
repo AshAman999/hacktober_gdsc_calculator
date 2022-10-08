@@ -1,8 +1,11 @@
 /* @import url('https://fonts.googleapis.com/css2?family=Orbitron&display=swap'); */
 .container {
+    position: relative;
+    top: 10rem;
+
     padding: 10px;
     border-radius: 1em;
-    height: 380px;
+    height: 400px;
     width: 400px;
     margin: auto;
     background-color: #191b28;
@@ -15,16 +18,19 @@ h3 {
     text-align: center;
     margin-top: 0;
 }
-// you can use advance css to less tha codes and to make mobile responsive also
+/* // you can use advance css to less tha codes and to make mobile responsive also */
 .screen {
     
-    font-family: 'Orbitron', sans-serif;
-    background-color: #dcdbe1;
-    border: solid black 0.5px;
-    color: black;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-color: #988adb;
+    
     border-radius: 5px;
-    width: 100%;
-    height: 20%;
+    width: 98%;
+    height: 12%;
+    color: #dbe1e3;
+    border: 3px solid white;
+    border-radius: 3px;
+    font-size: 1.4rem;
 }
 table {
     width: 100%;
