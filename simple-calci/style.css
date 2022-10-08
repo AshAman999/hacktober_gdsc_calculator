@@ -22,7 +22,7 @@ h3 {
 .screen {
     
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    background-color: #988adb;
+    background-color: #8073c3;
     
     border-radius: 5px;
     width: 98%;
@@ -41,7 +41,7 @@ table {
 
 input[type=button] {
     font-family: 'Orbitron', sans-serif;
-    background-color: #d9262f;
+    background-color: #e6444c;
     color: white;
     border: solid black 0.5px;
     width: 100%;
@@ -54,4 +54,13 @@ input:active[type=button] {
     -webkit-box-shadow: inset 0px 0px 5px #c1c1c1;
     -moz-box-shadow: inset 0px 0px 5px #c1c1c1;
     box-shadow: inset 0px 0px 5px #c1c1c1;
+}
+
+footer {
+    position: relative;
+    top: 12rem;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-family: 'Orbitron', sans-serif;
+    font-size: 1.5rem;
 }

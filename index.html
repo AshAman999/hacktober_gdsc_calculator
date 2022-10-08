@@ -3,102 +3,60 @@
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1.0"
-    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Calculator</title>
-
-    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="index.css" />
   </head>
   <body>
-    <div class="container">
-      
+    <div class="select-card">
+      <div class="logo">
+        <h2 class="name">Calculator World</h2>
+        <!-- <h4 class="tagline">FOR BCEIANS BY BCEIANS</h4> -->
+      </div>
 
-      <h3>CALCULATOR</h3>
-      <input type="text" class="screen" id="result" value="000000000"/>
-      
-      <!-- <div class="screen" type="text" id="result">Kishor Kumar</div> -->
+      <div class="select">
+        <a href="simple-calci/simple-calci.html" class="card buy">
+          <div class="overlay"></div>
+          <div class="circle">
+            <img
+              src="resources/simple.png"
+              alt="Simple"
+              class="icons"
+              width="125px"
+              height="125px"
+            />
+          </div>
+          <p>Simple Calculator</p>
+        </a>
 
-      
-    
-      <br />
-      <table>
-        <tr>
-          <td>
-            <input type="button" value="(" onclick="dis('(')" />
-          </td>
-          <td>
-            <input type="button" value=")" onclick="dis(')')" />
-          </td>
-          <td><input type="button" value="C" onclick="clr()" /></td>
-          <td>
-            <input type="button" value="%" onclick="dis('%')" />
-          </td>
-        </tr>
+        <a href="scientific-calci/scientific.html" class="card sell">
+          <div class="overlay"></div>
+          <div class="circle">
+            <img
+            src="resources/scientific.png"
+            alt="scientific"
+            class="icons"
+            width="125px"
+            height="125px"
+          />
+          </div>
+          <p>Scientific Calculator</p>
+        </a>
 
-        <tr>
-          <td>
-            <input type="button" value="9" onclick="dis('9')" />
-          </td>
-          <td>
-            <input type="button" value="8" onclick="dis('8')" />
-          </td>
-          <td>
-            <input type="button" value="7" onclick="dis('7')" />
-          </td>
-          <td>
-            <input type="button" value="*" onclick="dis('*')" />
-          </td>
-        </tr>
-
-        <tr>
-          <td>
-            <input type="button" value="6" onclick="dis('6')" />
-          </td>
-          <td>
-            <input type="button" value="5" onclick="dis('5')" />
-          </td>
-          <td>
-            <input type="button" value="4" onclick="dis('4')" />
-          </td>
-          <td>
-            <input type="button" value="-" onclick="dis('-')" />
-          </td>
-        </tr>
-
-        <tr>
-          <td>
-            <input type="button" value="3" onclick="dis('3')" />
-          </td>
-          <td>
-            <input type="button" value="2" onclick="dis('2')" />
-          </td>
-          <td>
-            <input type="button" value="1" onclick="dis('1')" />
-          </td>
-          <td>
-            <input type="button" value="+" onclick="dis('+')" />
-          </td>
-        </tr>
-
-        <tr>
-          <td>
-            <input type="button" value="0" onclick="dis('0')" />
-          </td>
-          <td>
-            <input type="button" value="." onclick="dis('.')" />
-          </td>
-          <td>
-            <input type="button" value="/" onclick="dis('/')" />
-          </td>
-          <td><input type="button" value="=" onclick="solve('')" /></td>
-        </tr>
-      </table>
+        <a href="#" class="card rent">
+          <div class="overlay"></div>
+          <div class="circle">
+            <img
+            src="resources/age.png"
+            alt="age"
+            class="icons"
+            width="125px"
+            height="125px"
+          />
+          </div>
+          <p>Age Calculator</p>
+        </a>
+      </div>
     </div>
-    <footer>
-      <p>&copy;2022 Calculator. All rights reserved</p>
-    </footer>
-    <script src="./index.js"></script>
   </body>
 </html>
