@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style1.css">
+    <title>Age Calculator</title>
+</head>
+
+<body>
+    <div>
+        <form autocomplete="off" id="form">
+            <div>
+                <h4>Enter Date Of Birth</h4>
+                <table id="CustomTable" style="width: 100%;">
+                    <tbody>
+                        <tr>
+                            <th>Day</th>
+                            <th>Month</th>
+                            <th>Year</th>
+                        </tr>
+                        <tr>
+                            <td> <input class="form-control" id="date" max="31" maxlength="2" required="" size="2"
+                                    type="number" /></td>
+                            <td> <input class="form-control" id="month" max="12" required="" type="number" /></td>
+                            <td> <input class="form-control" id="year" max="9999" maxlength="4" required="" size="4"
+                                    type="number" /></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div> <br />
+                <h4>Age at the Date</h4>
+                <table id="CustomTable" style="width: 100%;">
+                    <tbody>
+                        <tr>
+                            <th>Day</th>
+                            <th>Month</th>
+                            <th>Year</th>
+                        </tr>
+                        <tr>
+                            <td> <input class="form-control" id="date2" max="31" maxlength="2" size="2" type="number" />
+                            </td>
+                            <td> <input class="form-control" id="month2" max="12" maxlength="2" size="2"
+                                    type="number" /></td>
+                            <td> <input class="form-control" id="year2" max="9999" maxlength="4" size="4"
+                                    type="number" /></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div style="margin-top: 10px; text-align: center;"> <button class="button button1" id="calbtn">Calculate
+                    Age</button></div>
+            <p style="font-size: 28px;"><span id="age"></span>&nbsp;<span id="months"></span>&nbsp;<span
+                    id="days"></span></p>
+        </form>
+    </div>
+   <script src="app.js"></script>
+</body>
+
+</html>
