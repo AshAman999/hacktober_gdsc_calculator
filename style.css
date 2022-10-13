@@ -1,4 +1,7 @@
 /* @import url('https://fonts.googleapis.com/css2?family=Orbitron&display=swap'); */
+body{
+    background:linear-gradient(rgb(218, 226, 212),rgb(228, 171, 214),pink);
+}
 .container {
     position: relative;
     top: 10rem;
@@ -9,7 +12,7 @@
     width: 400px;
     margin: auto;
     background-color: #191b28;
-    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+    box-shadow: rgba(2, 1, 3, 0.19) 5px 10px 20px, rgba(0, 0, 0, 0.23) 4px 10px 6px;
 }
 h3 {
     color: rgb(237, 232, 232);
