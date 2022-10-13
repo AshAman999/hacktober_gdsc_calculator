@@ -26,9 +26,9 @@ justify-content: center;
 
 .tagline{
     text-align: center;
-    font-size: 35px;
-    margin-top: 30px;
-    margin-bottom: 0px;
+    font-size: 30px;
+    margin-top: 34px;
+    margin-bottom: 5px;
     font-family: 'Righteous', cursive;
     font-weight: 100;
     color: chartreuse;
@@ -82,10 +82,10 @@ flex-direction: column;
   
   
   .card {
-    width: 321px;
-    height: 321px;
+    width: 325px;
+    height: 325px;
     background: rgb(7, 182, 212);
-    border-radius: 25px;
+    border-radius: 30px;
     overflow: hidden;
     display: flex; 
     font-family: 'Roboto Slab', serif;
@@ -93,7 +93,7 @@ flex-direction: column;
     justify-content: center;
     align-items: center;
     position: relative;
-    box-shadow: 0 14px 26px rgba(0,0,0,0.04);
+    box-shadow: 2 14px 26px rgba(0,0,0,0.04);
     transition: all 0.3s ease-out;
     text-decoration: none;
   }
@@ -131,16 +131,16 @@ flex-direction: column;
     font-size: 20px;
     color: #0b0c0c;
     margin-top: 30px;
-    z-index: 1000;
+    z-index: 1020;
     transition: color 0.3s ease-out;
   }
   
   .circle {
-    width: 131px;
-    height: 131px;
+    width: 135px;
+    height: 135px;
     border-radius: 50%;
     background: rgb(7, 182, 212);;
-    border: 2px solid var(--bg-color);
+    border: 4px solid var(--bg-color);
     display: flex;
     justify-content: center;
     align-items: center;
