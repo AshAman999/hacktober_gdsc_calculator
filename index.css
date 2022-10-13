@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Righteous&family=Roboto+Slab&display=swap');
 
 body{
-    background-color: #022339;
+    background-color: #7cb8df;
     
 }
 
@@ -20,13 +20,13 @@ justify-content: center;
     margin-bottom: 0px;
     font-family: 'Righteous', cursive;
     letter-spacing: 1.5px;
-    color: #b8f9d3;
-    margin-left: 10px;
+    color: #51d388;
+    margin-left: 12px;
 }
 
 .tagline{
     text-align: center;
-    font-size: 30px;
+    font-size: 35px;
     margin-top: 30px;
     margin-bottom: 0px;
     font-family: 'Righteous', cursive;
