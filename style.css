@@ -4,22 +4,22 @@ body{
 }
 .container {
     position: relative;
-    top: 10rem;
+    top: 15rem;
 
-    padding: 10px;
+    padding: 15px;
     border-radius: 1em;
-    height: 400px;
-    width: 400px;
+    height: 410px;
+    width: 410px;
     margin: auto;
     background-color: #191b28;
     box-shadow: rgba(2, 1, 3, 0.19) 5px 10px 20px, rgba(0, 0, 0, 0.23) 4px 10px 6px;
 }
 h3 {
-    color: rgb(237, 232, 232);
+    color: rgb(238, 235, 230);
     font-family: 'Orbitron', sans-serif;
-    font-size: 2em;
+    font-size: 2.2em;
     text-align: center;
-    margin-top: 0;
+    margin-top: 2px;
 }
 /* // you can use advance css to less tha codes and to make mobile responsive also */
 .screen {
@@ -28,10 +28,10 @@ h3 {
     background-color: #988adb;
     
     border-radius: 5px;
-    width: 98%;
-    height: 12%;
+    width: 95%;
+    height: 15%;
     color: #dbe1e3;
-    border: 3px solid white;
+    border: 4px solid white;
     border-radius: 3px;
     font-size: 1.4rem;
 }
@@ -49,12 +49,12 @@ input[type=button] {
     border: solid black 0.5px;
     width: 100%;
     border-radius: 10px;
-    height: 70%;
+    height: 74%;
     outline: none;
 }
 input:active[type=button] {
     background: #e5e5e5;
     -webkit-box-shadow: inset 0px 0px 5px #c1c1c1;
     -moz-box-shadow: inset 0px 0px 5px #c1c1c1;
-    box-shadow: inset 0px 0px 5px #c1c1c1;
+    box-shadow: inset 2px 2px 8px #c1c1c1;
 }
