@@ -200,12 +200,14 @@ flex-direction: column;
   }
 /* Footer section CSS */
 
-footer {
-  padding: 40px 0;
-  background-color: white;
-  
-}
 
+footer{
+  text-align: center;
+  font-size: 20px;
+  color: #fff;
+  background-color: #000;
+  padding: 10px;
+}
 .footer .social {
   text-align: center;
   padding-bottom: 25px;

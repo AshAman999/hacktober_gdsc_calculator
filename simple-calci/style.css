@@ -56,11 +56,13 @@ input:active[type=button] {
     box-shadow: inset 0px 0px 5px #c1c1c1;
 }
 
-footer {
+
+footer{
     position: relative;
     top: 12rem;
     text-align: center;
-    color: rgb(0, 0, 0);
-    font-family: 'Orbitron', sans-serif;
-    font-size: 1.5rem;
+    font-size: 20px;
+    color: #fff;
+    background-color: #000;
+    padding: 10px;
 }
