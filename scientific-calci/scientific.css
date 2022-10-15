@@ -8,7 +8,19 @@ body {
     user-select: none;
     background: #ecf0f3;
 }
+.sh2{
+    font-size: 2rem;
+    font-weight: bold;
+    color: #0e65bc;
+    position: relative;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    top: -15rem;
+    left: 35rem;
+    width: 55rem;
+    
+    text-decoration: underline;
 
+}
 .container {
     position: fixed;
     margin-left: 1.8em;
@@ -85,11 +97,15 @@ body {
     box-shadow: inset 5px 5px 8px #ff0000, inset -5px -5px 8px #c40c0c;
 }
 
-footer {
-    position: relative;
-    top: 20rem;
+
+footer{
     text-align: center;
-    color: rgb(0, 0, 0);
-    font-family: 'Orbitron', sans-serif;
-    font-size: 1.5rem;
+    font-size: 20px;
+    color: #fff;
+    background-color: #000;
+    padding: 10px;
+    position: relative;
+    left: -6rem;
+    top: 18rem;
+    width: 180rem;
 }
