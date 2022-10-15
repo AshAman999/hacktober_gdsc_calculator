@@ -12,3 +12,5 @@ This calculator will solve complex problem easily
 >  5 
 ## ```calculate 5+4/4```  
 > 6
+#```calculate 4+3```
+>7
