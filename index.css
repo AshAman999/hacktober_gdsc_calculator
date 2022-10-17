@@ -82,8 +82,8 @@ flex-direction: column;
   
   
   .card {
-    width: 321px;
-    height: 321px;
+    width: 288px;
+    height: 288px;
     background: rgb(7, 182, 212);
     border-radius: 25px;
     overflow: hidden;
@@ -136,7 +136,7 @@ flex-direction: column;
   }
   
   .circle {
-    width: 131px;
+    width: 120px;
     height: 131px;
     border-radius: 50%;
     background: rgb(7, 182, 212);;
@@ -150,9 +150,10 @@ flex-direction: column;
   }
   
   .circle:after {
+
     content: "";
-    width: 118px;
-    height: 118px;
+    width: 130spx;
+    height: 130px;
     display: block;
     position: absolute;
     background: var(--bg-color);
@@ -211,15 +212,15 @@ footer{
 .footer .social {
   text-align: center;
   padding-bottom: 25px;
-  color:white;
-}
+
+  }
 
 .footer .social a {
   font-size: 24px;
   color: inherit;
   border: 1px solid white;
-  width: 40px;
-  height: 40px;
+  width: 50px;
+  height: 50px;
   line-height: 38px;
   display: inline-block;
   text-align: center;
@@ -268,3 +269,20 @@ footer{
 color: white;
 }
 
+.footer .social .instagram{
+  color: rgba(235, 13, 50, 0.8);
+  
+}
+.footer .social .snapchat{
+  color: rgba(231, 235, 13, 0.8);
+
+}
+
+.footer .social .twitter{
+  color: rgba(13, 109, 235, 0.8);
+
+}
+.footer .social .facebook{
+  color: rgba(13, 109, 235, 0.8);
+
+}
