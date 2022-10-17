@@ -209,8 +209,8 @@ footer {
 .footer .social {
   text-align: center;
   padding-bottom: 25px;
-  color:white;
-}
+
+  }
 
 .footer .social a {
   font-size: 24px;
@@ -266,3 +266,20 @@ footer {
 color: white;
 }
 
+.footer .social .instagram{
+  color: rgba(235, 13, 50, 0.8);
+  
+}
+.footer .social .snapchat{
+  color: rgba(231, 235, 13, 0.8);
+
+}
+
+.footer .social .twitter{
+  color: rgba(13, 109, 235, 0.8);
+
+}
+.footer .social .facebook{
+  color: rgba(13, 109, 235, 0.8);
+
+}
