@@ -151,8 +151,8 @@ flex-direction: column;
   
   .circle:after {
     content: "";
-    width: 118px;
-    height: 118px;
+    width: 130px;
+    height: 130px;
     display: block;
     position: absolute;
     background: var(--bg-color);
