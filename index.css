@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Righteous&family=Roboto+Slab&display=swap');
 
 body{
-    background-color: #7cb8df;
+    background-color: #7cb7df;
     
 }
 
@@ -52,6 +52,7 @@ flex-direction: column;
     height: 80vh;
 }
 .select-card {
+  display: flex;
     background: #022339;
     justify-content: space-around;
     align-items: center;
@@ -78,6 +79,18 @@ flex-direction: column;
     --bg-color-light: #fae9d9;
     --text-color-hover: #000000;
     --box-shadow-color: rgba(252, 224, 178, 0.48);
+  }
+  .deal {
+    --bg-color: #fa9d9d;
+    --bg-color-light: #fad9d9;
+    --text-color-hover: #000000;
+    --box-shadow-color: rgba(252, 178, 178, 0.48);
+  }
+  .cut {
+    --bg-color: #ffffff;
+    --bg-color-light: #8fd2ff;
+    --text-color-hover: #000000;
+    --box-shadow-color: rgba(178, 242, 252, 0.48);
   }
   
   
@@ -201,7 +214,11 @@ flex-direction: column;
 /* Footer section CSS */
 
 
-footer{
+.footer{
+
+  height: 300px;
+  width: 100%;
+  margin-top: 30px;
   text-align: center;
   font-size: 20px;
   color: #fff;
