@@ -4,7 +4,7 @@
 
 2. Now in your Repository Copy the clone link
 
-3. Open terminal in your System, move to a specific location, now type this command "git clone <Link of Repository>"
+3. Open terminal in your System, move to a specific location, now type this command "git clone < Link of Repository >"
 
 4. Edit the repository as per the needs and requirements
 
