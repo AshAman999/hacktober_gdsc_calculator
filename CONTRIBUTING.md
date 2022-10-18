@@ -9,7 +9,9 @@
 4. Edit the repository as per the needs and requirements
 
 5. Update your repository now using the following commands
-[{
+
+[
+{
 
     git add .
 
@@ -17,7 +19,8 @@
 
     git push
 
-}]
+}
+]
 
 5. Now open github and open the repository in your account.
 
