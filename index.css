@@ -5,6 +5,10 @@ body{
     
 }
 
+.contents{
+  position: relative;
+}
+
 .imglog{
   margin-top: 10px;
   display: flex;
